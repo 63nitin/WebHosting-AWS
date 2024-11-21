@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+      <!-- Header Section -->
+    <header style="background: linear-gradient(90deg, #6a11cb, #2575fc); color: white; padding: 20px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <h1 style="margin: 0; font-size: 3em; font-weight: bold;">Welcome to My Fancy Website</h1>
+        <p style="margin: 10px 0; font-size: 1.2em;">Experience the elegance of simplicity</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section style="text-align: center; padding: 50px 20px;">
+        <img src="https://via.placeholder.com/600x300" alt="Hero Image" style="width: 80%; max-width: 600px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">
+        <h2 style="margin-top: 20px; font-size: 2.5em; color: #6a11cb;">Stylish & Responsive</h2>
+        <p style="font-size: 1.2em; color: #555; margin-top: 10px;">
+            This fancy website is designed with inline CSS to showcase modern aesthetics. It's easy to host and perfect for demonstrating AWS static hosting!
+        </p>
+        <a href="#about" style="display: inline-block; margin-top: 20px; padding: 10px 20px; font-size: 1em; color: white; background: #2575fc; border-radius: 5px; text-decoration: none; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);">
+            Learn More
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" style="background-color: #ffffff; padding: 50px 20px; text-align: center;">
+        <h2 style="font-size: 2.5em; color: #333;">About This Website</h2>
+        <p style="font-size: 1.2em; color: #666; max-width: 800px; margin: 20px auto;">
+            This static website demonstrates how a simple combination of HTML and inline CSS can produce a professional and visually appealing design. It’s lightweight, responsive, and easy to host on AWS S3. Experiment with AWS to make this project live for the world to see!
+        </p>
+    </section>
+
+
+<div class="contact-form" style="max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <h2 style="text-align: center; font-family: Arial, sans-serif; color: #333; margin-bottom: 20px;">Contact Us</h2>
+    <form id="contactForm" style="display: flex; flex-direction: column; gap: 15px;">
+        <input type="text" id="name" placeholder="Your Name" required style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; outline: none; transition: 0.3s;">
+        <input type="email" id="email" placeholder="Your Email" required style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; outline: none; transition: 0.3s;">
+        <input type="text" id="subject" placeholder="Subject" required style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; outline: none; transition: 0.3s;">
+        <textarea id="message" placeholder="Your Message" required style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; outline: none; transition: 0.3s; resize: none; height: 100px;"></textarea>
+        <button type="submit" style="padding: 12px; font-size: 16px; color: #fff; background-color: #007BFF; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s;">Send Message</button>
+    </form>
+</div>
+
+    <!-- Footer Section -->
+    <footer style="background-color: #333; color: white; text-align: center; padding: 20px;">
+        <p style="margin: 0; font-size: 1em;">© 2024 My Fancy Static Website | Powered by AWS</p>
+        <a href="#" style="color: #6a11cb; text-decoration: none; font-size: 1em;">Back to Top</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
